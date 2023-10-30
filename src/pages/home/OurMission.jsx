@@ -5,7 +5,7 @@ const OurMission = () => {
         <h2 className="text-3xl font-bold text-[#FF6154] my-6 uppercase">
           Our Mission
         </h2>
-        <p className="text-black md:mx-24 my-6">
+        <p className="text-gray-600 md:mx-24 my-6">
           Provide support to underprivileged section of the society specially
           extreme poor, homeless and orphan children through quality education,
           nourishment & shelter to make them resources for the nation.
