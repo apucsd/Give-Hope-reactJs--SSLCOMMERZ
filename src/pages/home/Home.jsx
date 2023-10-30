@@ -1,11 +1,13 @@
 import Banner from "./Banner";
-import TimeLine from "./TimeLine";
+import Features from "./Features";
+import OurMission from "./OurMission";
 
 const Home = () => {
   return (
     <div>
       <Banner></Banner>
-      <TimeLine></TimeLine>
+      <Features></Features>
+      <OurMission></OurMission>
     </div>
   );
 };
