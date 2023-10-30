@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 const Footer = () => {
   return (
     <footer className="">
@@ -20,45 +21,46 @@ const Footer = () => {
               Give Hope
             </span>
           </div>
-          <div className="text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ad a
-            officia ea expedita!
+          <div className="text-gray-500 text-sm">
+            Our mission is to provide urgent aid to individuals facing
+            life-threatening situations. By contributing to our cause, you are
+            directly influencing the outcome of someone's life
           </div>
         </div>
         <div className="">
-          <div className="mt-4 mb-2 font-medium xl:mb-4">Guides</div>
+          <div className="mt-4 mb-2 font-medium xl:mb-4">Visit</div>
           <nav aria-label="Guides Navigation" className="text-gray-500">
             <ul className="space-y-3">
               <li>
                 <a className="hover:text-blue-600 hover:underline" href="#">
-                  How to make a footer
+                  Projects
                 </a>
               </li>
               <li>
                 <a className="hover:text-blue-600 hover:underline" href="#">
-                  Designing your app
+                  Sponsors
                 </a>
               </li>
               <li>
                 <a className="hover:text-blue-600 hover:underline" href="#">
-                  Getting help from the community
+                  Videos
                 </a>
               </li>
               <li>
                 <a className="hover:text-blue-600 hover:underline" href="#">
-                  Pricing vs Hourly Rate
+                  Gallery
                 </a>
               </li>
             </ul>
           </nav>
         </div>
         <div className="">
-          <div className="mt-4 mb-2 font-medium xl:mb-4">Links</div>
+          <div className="mt-4 mb-2 font-medium xl:mb-4">Help</div>
           <nav aria-label="Footer Navigation" className="text-gray-500">
             <ul className="space-y-3">
               <li>
                 <a className="hover:text-blue-600 hover:underline" href="#">
-                  Pricing
+                  FAQ
                 </a>
               </li>
               <li>
@@ -68,7 +70,7 @@ const Footer = () => {
               </li>
               <li>
                 <a className="hover:text-blue-600 hover:underline" href="#">
-                  Press
+                  Contact Us
                 </a>
               </li>
               <li>
@@ -76,31 +78,23 @@ const Footer = () => {
                   Support Hub
                 </a>
               </li>
-              <li>
-                <a className="hover:text-blue-600 hover:underline" href="#">
-                  Contact
-                </a>
-              </li>
             </ul>
           </nav>
         </div>
         <div className="">
           <div className="mt-4 mb-2 font-medium xl:mb-4">
-            Support Us on Product Hunt
+            Support Us on FaceBook
           </div>
           <div className="flex flex-col">
             <div className="mb-4">
               <a
-                href="https://www.producthunt.com/products/Apple?utm_source=badge-follow&utm_medium=badge&utm_souce=badge-Apple"
+                href="https://www.facebook.com"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img
-                  src="https://api.producthunt.com/widgets/embed-image/v1/follow.svg?post_id=100070&theme=light"
-                  alt="Apple - Think&#0032;Different | Product Hunt"
-                  width="250"
-                  height="54"
-                />
+                <div className="border border-[#FF6154] p-4 rounded-md text-center text-[#FF6154] uppercase">
+                  Follow Us
+                </div>
               </a>
             </div>
           </div>
@@ -108,8 +102,8 @@ const Footer = () => {
       </div>
       <div className="border-t">
         <div className="mx-auto flex max-w-screen-xl flex-col gap-y-4 px-4 py-3 text-center text-gray-500 sm:px-20 lg:flex-row lg:justify-between lg:text-left xl:px-10">
-          <p className="">© 2022 Boleno | All Rights Reserved</p>
-          <p className="-order-1 sm:order-none">Made with ❤️ Remotely</p>
+          <p className="">© {new Date().getFullYear()} | All Rights Reserved</p>
+          <p className="-order-1 sm:order-none">Apu Sutra Dhar</p>
           <p className="">
             <a className="" href="#">
               Privacy Policy

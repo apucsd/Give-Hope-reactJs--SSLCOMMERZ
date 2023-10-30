@@ -194,8 +194,8 @@ const Navbar = () => {
               {" "}
               Log in{" "}
             </a>
-            <a href="#" title="" className="primaryBtn">
-              Get free trial
+            <a href="#" title="" className="primaryBtn uppercase">
+              Donate
             </a>
           </div>
         </nav>

@@ -1,6 +1,6 @@
 const OurMission = () => {
   return (
-    <section className="bg-[#FFECE5] text-white p-8">
+    <section data-aos="fade-up" className="bg-[#FFECE5] text-white p-8">
       <div className="container mx-auto text-center px-4">
         <h2 className="text-3xl font-bold text-[#FF6154] my-6 uppercase">
           Our Mission
@@ -11,7 +11,11 @@ const OurMission = () => {
           nourishment & shelter to make them resources for the nation.
         </p>
         <div className="flex flex-wrap -mx-4">
-          <div className="w-full  md:w-1/3 px-4 mb-8 ">
+          <div
+            data-aos="flip-up"
+            data-aos-duration="900"
+            className="w-full  md:w-1/3 px-4 mb-8 "
+          >
             <div className="bg-[#FAA51A] min-h-[300px] hover:bg-[#00AB4E] transition duration-150 p-8 shadow-md text-center rounded-md">
               <svg
                 viewBox="0 0 512 512"
@@ -29,7 +33,11 @@ const OurMission = () => {
               </p>
             </div>
           </div>
-          <div className="w-full  md:w-1/3 px-4 mb-8">
+          <div
+            data-aos="flip-down"
+            data-aos-duration="900"
+            className="w-full  md:w-1/3 px-4 mb-8"
+          >
             <div className="bg-[#FAA51A] min-h-[300px] hover:bg-[#00AB4E] transition duration-150 p-8 shadow-md text-center rounded-md">
               <svg
                 viewBox="0 0 20 20"
@@ -47,7 +55,11 @@ const OurMission = () => {
               </p>
             </div>
           </div>
-          <div className="w-full  md:w-1/3 px-4 mb-8">
+          <div
+            data-aos="flip-up"
+            data-aos-duration="900"
+            className="w-full  md:w-1/3 px-4 mb-8"
+          >
             <div className="bg-[#FAA51A] min-h-[300px] hover:bg-[#00AB4E] transition duration-150 p-8 shadow-md text-center rounded-md">
               <svg
                 viewBox="0 0 24 24"
