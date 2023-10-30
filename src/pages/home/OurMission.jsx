@@ -1,10 +1,15 @@
+import SectionTitle from "../../components/SectionTitle";
+
 const OurMission = () => {
   return (
     <section data-aos="fade-up" className="bg-[#FFECE5] text-white p-8">
       <div className="container mx-auto text-center px-4">
-        <h2 className="text-3xl font-bold text-[#FF6154] my-6 uppercase">
-          Our Mission
-        </h2>
+        <div className="md:w-1/2 mx-auto">
+          <SectionTitle
+            title={"Our Mission"}
+            subtitle={"What's Our Dream?"}
+          ></SectionTitle>
+        </div>
         <p className="text-gray-600 md:mx-24 my-6">
           Provide support to underprivileged section of the society specially
           extreme poor, homeless and orphan children through quality education,

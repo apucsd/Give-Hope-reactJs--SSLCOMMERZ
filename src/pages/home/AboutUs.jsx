@@ -1,3 +1,5 @@
+import SectionTitle from "../../components/SectionTitle";
+import img from "../../assets/images/donation10.jpg";
 /* eslint-disable react/no-unescaped-entities */
 const AboutUs = () => {
   return (
@@ -11,8 +13,8 @@ const AboutUs = () => {
               className="relative lg:max-w-md"
             >
               <img
-                src="/src/assets/images/donation10.jpg"
-                alt="aboutimage"
+                src={img}
+                alt="about image"
                 className="relative z-10 object-cover w-full rounded h-96"
               />
               <div className="absolute bottom-0 right-0 z-10 p-8 bg-white border-4 border-[#ff6154] lg:-mb-8 lg:-mr-11 sm:p-8   ">
@@ -31,13 +33,11 @@ const AboutUs = () => {
             </div>
           </div>
           <div className="w-full px-6 mb-10 lg:w-1/2 lg:mb-0 ">
-            <div className="pl-4 mb-6 border-l-4 border-blue-500 ">
-              <span className="text-sm text-gray-600 uppercase dark:text-gray-400">
-                Who we are?
-              </span>
-              <h2 className="text-4xl font-bold text-[#FF6154] my-6 uppercase">
-                About Us
-              </h2>
+            <div className="">
+              <SectionTitle
+                title={"About Us"}
+                subtitle={"What We Do?"}
+              ></SectionTitle>
             </div>
             <p className="mb-6 text-base leading-7 text-gray-500 dark:text-gray-400">
               Our mission is to provide urgent aid to individuals facing

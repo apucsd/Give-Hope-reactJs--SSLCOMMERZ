@@ -6,6 +6,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import SectionTitle from "../../components/SectionTitle";
 
 const Testimonial = () => {
   const testimonials = [
@@ -52,13 +53,11 @@ const Testimonial = () => {
   ];
   return (
     <div className=" md:m-20">
-      <div className="pl-4 max-w-min mx-auto md:mb-6 border-l-4 border-blue-500 ">
-        <span className="text-sm text-gray-600 uppercase dark:text-gray-400">
-          What People Think Us?
-        </span>
-        <h2 className="text-4xl font-bold text-[#FF6154] md:my-6 uppercase">
-          Testimonials
-        </h2>
+      <div className="md:w-2/3 mx-auto text-center -mb-24">
+        <SectionTitle
+          title={"Testimonials"}
+          subtitle={"What People Think Us?"}
+        ></SectionTitle>
       </div>
       <Swiper
         spaceBetween={20}

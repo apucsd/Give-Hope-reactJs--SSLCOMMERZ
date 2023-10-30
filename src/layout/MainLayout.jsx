@@ -9,7 +9,7 @@ const MainLayout = () => {
     Aos.init();
   }, []);
   return (
-    <div>
+    <div className="font-roboto">
       <Navbar></Navbar>
       <Outlet></Outlet>
       <Footer></Footer>
