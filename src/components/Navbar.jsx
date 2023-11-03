@@ -194,7 +194,7 @@ const Navbar = () => {
               {" "}
               Log in{" "}
             </a>
-            <a href="#" title="" className="primaryBtn uppercase">
+            <a href="#donate" title="" className="primaryBtn uppercase">
               Donate
             </a>
           </div>

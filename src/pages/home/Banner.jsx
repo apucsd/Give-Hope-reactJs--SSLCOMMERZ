@@ -11,7 +11,10 @@ const Banner = () => {
           </p>
         </div>
         <div className="mt-6 flex items-center justify-center gap-4">
-          <button className="primaryBtn">Donate Now</button>
+          <a href="#donate">
+            {" "}
+            <button className="primaryBtn">Donate Now</button>
+          </a>
           <button className="whitespace-nowrap flex gap-2 items-center rounded-xl border hover:border-transparent px-5 py-3 font-medium text-white transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 hover:bg-[#FF6154]">
             <svg
               fill="currentColor"
